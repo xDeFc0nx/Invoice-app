@@ -57,7 +57,7 @@ const InvoiceDetails = () => {
           {/* ===== invoice client adress ===== */}
           <div className="invoice__client-address">
             <p>Bill to</p>
-            <h4>nehar</h4>
+            <h4>nehar@gmail.com</h4>
             <div>
               <p>Block -a</p>
               <p>deba</p>
@@ -76,7 +76,43 @@ const InvoiceDetails = () => {
               <p className="list__item-box">Price</p>
               <p className="list__item-box">Total</p>
             </li>
+
+            {/* ===== invoice item =====*/}
+
+            <li className="list__item">
+              <div className="item__name-box">
+                <h5>Web hosting</h5>
+              </div>
+              <div className="list__item-box">
+                <p>1</p>
+              </div>
+              <div className="list__item-box">
+                <p>$10</p>
+              </div>
+              <div className="list__item-box">
+                <p>$10</p>
+              </div>
+            </li>
+            <li className="list__item">
+              <div className="item__name-box">
+                <h5>minecraft hosting</h5>
+              </div>
+              <div className="list__item-box">
+                <p>1</p>
+              </div>
+              <div className="list__item-box">
+                <p>$10</p>
+              </div>
+              <div className="list__item-box">
+                <p>$10</p>
+              </div>
+            </li>
           </ul>
+        </div>
+        {/* ===== grand total ===== */}
+        <div className="grand__total">
+          <h5>Grand total</h5>
+          <h2>$20</h2>
         </div>
       </div>
     </div>
